@@ -1,14 +1,14 @@
 <template>
-<TheHeader />
-  <router-view/>
+  <!-- <TheHeader /> -->
+  <router-view />
 </template>
 <script>
-import TheHeader from './components/TheHeader'
+// import TheHeader from './components/TheHeader'
 export default {
-   components:{
-    TheHeader
-   }
-}
+  components: {
+    // TheHeader
+  }
+};
 </script>
 <style>
 #app {
@@ -18,5 +18,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 </style>

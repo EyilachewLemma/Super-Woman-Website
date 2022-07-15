@@ -5,5 +5,8 @@ import router from './router'
 import store from './store'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import BaseModal from './components/BaseModal'
+const app = createApp(App)
+app.component('BaseModal', BaseModal)
 
-createApp(App).use(store).use(router).mount('#app')
+app.use(store).use(router).mount('#app')
